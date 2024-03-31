@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://66096254079846bb1ed9c8fc--laranainc.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,6 +147,6 @@ I would like to thank [Woosat](https://www.woosat.com/)
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
+This project is [MIT](https://github.com/SanaTameem/larana-inc/blob/dev/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
