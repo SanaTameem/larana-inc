@@ -1,0 +1,170 @@
+.services-page {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.service-content {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  width: 70%;
+}
+
+.service-small-title {
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #824fed;
+}
+
+.service-big-title {
+  font-size: 35px;
+}
+
+.service-para {
+  font-size: 12px;
+  width: 65%;
+  line-height: 20px;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 15px;
+  height: 150px;
+}
+
+.service-card svg {
+  font-size: 50px;
+  color: #824fed;
+}
+
+.service-description {
+  font-size: 13px;
+  width: 65%;
+  line-height: 18px;
+}
+
+.services-img {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  right: 4%;
+}
+
+.services-img img {
+  width: 100%;
+}
+
+.services-cover-div {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: #824fed;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 767px) {
+  .services-cover-div {
+    width: 150px;
+  }
+
+  .services-page {
+    height: auto;
+    margin-top: 70px;
+    padding: 0 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .service-big-title {
+    text-align: center;
+  }
+
+  .services-img {
+    position: static;
+    width: 70%;
+    margin-bottom: 30px;
+  }
+
+  .service-content {
+    width: 100%;
+    gap: 45px;
+    align-items: center;
+  }
+
+  .service-small-title {
+    color: #000;
+  }
+
+  .service-para {
+    width: 100%;
+  }
+
+  .services-list {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card svg {
+    color: #000;
+  }
+
+  .service-card {
+    align-items: center;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .services-page {
+    padding: 0 40px;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    height: auto;
+    margin-top: 60px;
+  }
+
+  .service-content {
+    gap: 60px;
+  }
+
+  .service-para {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .service-card {
+    height: auto;
+  }
+
+  .services-img {
+    width: 35%;
+    align-self: end;
+    position: static;
+  }
+}

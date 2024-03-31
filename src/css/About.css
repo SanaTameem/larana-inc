@@ -1,0 +1,128 @@
+.about-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 25px;
+  margin-bottom: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.about-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img img {
+  width: 95%;
+  height: 300px;
+  margin-top: 3%;
+  object-fit: cover;
+}
+
+.about-text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 0 30px;
+}
+
+.about-title {
+  width: 35%;
+  background-color: #fff;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.about-small-title {
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #824fed;
+  font-weight: 700;
+}
+
+.about-large-title {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+  font-size: 18px;
+  width: 60%;
+}
+
+/* Mobile Version */
+@media only screen and (max-width: 767px) {
+  .nav-list {
+    justify-content: center;
+  }
+
+  .about-img img {
+    margin-top: 10%;
+    height: 150px;
+    width: 90%;
+  }
+
+  .about-text {
+    flex-direction: column;
+  }
+
+  .about-info {
+    width: 90%;
+    margin-bottom: 24px;
+  }
+
+  .about-title {
+    width: 100%;
+  }
+
+  .about-page {
+    justify-content: center;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-img img {
+    margin-top: 5%;
+  }
+
+  .about-title {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-info {
+    width: 100%;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .about-info p {
+    text-align: justify;
+  }
+}
