@@ -1,0 +1,163 @@
+.analytics-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+  margin: 0 4%;
+  flex-direction: column;
+}
+
+.analytics-page-top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  margin-bottom: -130px;
+}
+
+.analytic-content {
+  gap: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 5%;
+}
+
+.analytic-small-title {
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: #824fed;
+}
+
+.analytic-big-title {
+  font-size: 35px;
+}
+
+.analytic-para {
+  font-size: 12px;
+  line-height: 18px;
+  width: 80%;
+}
+
+.analytic-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.chart1,
+.chart2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 15px;
+  background: #fff;
+  padding: 34px 20px;
+  width: 100%;
+}
+
+.chart1 h4,
+.chart2 h4 {
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.chart1 p,
+.chart2 p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.analytics-chart-img {
+  width: 38%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  right: 0;
+  top: 65px;
+}
+
+.analytics-chart-img img {
+  width: 100%;
+}
+
+.analytics-cover {
+  height: 200px;
+  width: 100%;
+  background-color: #824fed;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 767px) {
+  .analytics-page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 70px;
+  }
+
+  .analytics-page-top {
+    flex-direction: column;
+  }
+
+  .analytic-content {
+    width: 100%;
+    align-items: center;
+    padding: 0 30px;
+  }
+
+  .analytics-chart-img {
+    position: static;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .chart1,
+  .chart2 {
+    padding: 15px;
+  }
+
+  .analytic-big-title {
+    font-size: 28px;
+  }
+
+  .analytic-cards {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .analytics-page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 70px;
+  }
+
+  .analytics-chart-img {
+    position: static;
+    width: 65%;
+    align-self: center;
+  }
+
+  .analytic-content {
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .analytics-page-top {
+    flex-direction: column;
+  }
+}

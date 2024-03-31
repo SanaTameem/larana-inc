@@ -1,0 +1,74 @@
+.includings-page {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.including-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.including-titles h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.including-titles p {
+  width: 71%;
+  text-align: center;
+}
+
+.including-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  padding: 0 41px;
+  gap: 25px;
+}
+
+.including-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 25px;
+  padding: 0 20px;
+}
+
+.including-card svg {
+  font-size: 40px;
+  color: #824fed;
+  background: #dfdfdf;
+  padding: 24px;
+  border-radius: 6px;
+}
+
+.including-card h4 {
+  font-size: 21px;
+}
+
+.including-card p {
+  line-height: 19px;
+}
+
+@media only screen and (max-width: 767px) {
+  .including-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .including-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
