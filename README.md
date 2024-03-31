@@ -58,8 +58,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://66096254079846bb1ed9c8fc--laranainc.netlify.app/)
+- [Live Demo Link](https://deploy-preview-3--laranainc.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
