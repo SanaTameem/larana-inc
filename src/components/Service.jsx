@@ -24,7 +24,7 @@ const Service = () => {
           <div className="services-list">
             {services.map((service) => (
 
-              <div className="service-card" key={service.name}>
+              <div className="service-card" key={service.serviceName}>
                 <FontAwesomeIcon icon={service.serviceLogo} />
                 <h3 className="service-name">{service.serviceName}</h3>
                 <p className="service-description">{service.serviceDescription}</p>

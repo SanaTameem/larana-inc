@@ -25,7 +25,7 @@ const Plan = () => {
       </div>
       <div className="plan-cards">
         {plans.map((plan) => (
-          <div className="plan-card" key={plan}>
+          <div className="plan-card" key={plan.planName}>
             <div className="plan-card-title">
               <h3>{plan.planName}</h3>
               <p>{plan.planDescription}</p>
